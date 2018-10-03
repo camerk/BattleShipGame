@@ -16,6 +16,18 @@ public class BattleshipGame {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Board player1 = new Board();
+        
+        
+               
+        player1.display();
+        
+       player1.place_ships_default();
+       player1.display();
+        
+         
+         Board board = new Board();
+         
     }
     
 }
