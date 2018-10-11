@@ -1,0 +1,5 @@
+SHIP: Each of the board pieces have hard coded parameters to create their objects, generalize this
+SHIP: Hard coded orientation
+COMMS: Quit makes threads throw errors
+BackendThread: write in check win conditions during lop and after loop
+test game through: player 1 win and Player 2 win, Player 1 quit, Player 2 quit

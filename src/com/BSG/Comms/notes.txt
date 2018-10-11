@@ -1,0 +1,5 @@
+if(p1.startsWith("Fire=")) { // string should look like "Fire=3,2" x,y format
+                        p1 = p1.substring(6);
+                        String[] parts = p1.split(" */ *");
+                        int x = Integer.parseInt(parts[0]),
+                                y = Integer.parseInt(parts[1]);
